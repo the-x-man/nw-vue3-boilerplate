@@ -1,4 +1,4 @@
-# NW.js + Vue 3 Desktop App Boilerplate
+# Church Lyrics Projection Application
 
 The easiest, quickest, and best option for building Desktop Apps with Vue.
 
