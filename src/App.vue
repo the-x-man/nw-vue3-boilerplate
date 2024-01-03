@@ -1,4 +1,5 @@
 <template>
+  <HeaderMain />
   <header>
     <nav>
       <RouterLink :to="{ name: 'welcome' }">
@@ -25,9 +26,14 @@
 </template>
 
 <script>
-export default {
-  name: 'App'
-};
+import { defineComponent } from 'vue';
+
+import HeaderMain from './components/Header/HeaderMain.vue';
+
+export default defineComponent({
+  name: 'App',
+  components: { HeaderMain }
+});
 </script>
 
 <style scoped>

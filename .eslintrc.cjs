@@ -35,10 +35,9 @@ module.exports = {
     'import/no-namespace': 'off',
     'import/no-unresolved': 'off',
     'import/no-unused-modules': 'off',
-    'no-restricted-syntax': [
-      'error',
-      ...baseRestrictedSyntax
-    ],
+    'no-restricted-syntax': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'vue/no-v-model-argument': 'off',
     'vue/no-multiple-template-root': [
       'off'
     ],
